@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Text;
 
 namespace gitTest
@@ -8,10 +9,10 @@ namespace gitTest
     {
         public static void Start()
         {
-            Console.Title = "StartApp";
-            Console.WriteLine("Loading ThisPloit Framework");
-
-
+            Console.Title = "ThisPloit";
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Loading ThisPloit Framework...");
+            Console.ResetColor();
         }
     }
 }
