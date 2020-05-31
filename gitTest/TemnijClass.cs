@@ -38,15 +38,15 @@ namespace gitTest
                 {
                     Console.Write("\n");
                 }
-                if (i == 100)
+                if (i == 97)
                 {
                     Console.Write("\n");
                 }
-                if (i == 150)
+                if (i == 153)
                 {
                     Console.Write("\n");
                 }
-                if (i == 200)
+                if (i == 199)
                 {
                     Console.Write("\n");
                 }
