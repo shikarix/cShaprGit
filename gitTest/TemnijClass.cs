@@ -56,6 +56,7 @@ namespace gitTest
             Thread.Sleep(400);
 
             Console.ResetColor();
+            Console.ReadKey();
         }
     }
 }
