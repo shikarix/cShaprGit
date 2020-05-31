@@ -8,6 +8,9 @@ namespace gitTest
     {
         public void Start()
         {
+            Console.Title = "StartApp";
+            Console.WriteLine("Loading ThisPloit Framework");
+
 
         }
     }
