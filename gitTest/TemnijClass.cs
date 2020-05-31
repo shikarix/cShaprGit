@@ -18,16 +18,16 @@ namespace gitTest
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Loading ThisPloit Framework...");
             Console.ResetColor();
-            Thread.Sleep(500);
+            Thread.Sleep(700);
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Hacking Pentagon");
-            Thread.Sleep(400);
+            Thread.Sleep(500);
             Console.WriteLine("Password of Pentagon is Leaked:");
-            Thread.Sleep(600);
+            Thread.Sleep(800);
             Console.Clear();
             Console.WriteLine("Password:");
-            Thread.Sleep(200);
+            Thread.Sleep(400);
             Console.ForegroundColor = ConsoleColor.Red;
             for (int i = 200; i>0;i--)
             {
