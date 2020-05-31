@@ -6,7 +6,7 @@ namespace gitTest
 {
     class TemnijClass
     {
-        public void Start()
+        public static void Start()
         {
             Console.Title = "StartApp";
             Console.WriteLine("Loading ThisPloit Framework");
