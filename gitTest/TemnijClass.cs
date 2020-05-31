@@ -11,9 +11,9 @@ namespace gitTest
         public static void Start()
         {
             Console.Clear();
-            char[] pass = "1234567890-=qwertyuiopasdfghjkl;zxcvbnm,.".ToCharArray();
+            char[] pass = "1234567890-=qwertyuiopasdfghjkl;zxcvbnm,.:".ToCharArray();
             Random rnd = new Random();
-            int rand = rnd.Next(0, 41);
+            int rand = rnd.Next(0, 42);
             Console.Title = "ThisPloit";
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Loading ThisPloit Framework...");
@@ -31,7 +31,7 @@ namespace gitTest
             Console.ForegroundColor = ConsoleColor.Red;
             for (int i = 200; i>0;i--)
             {
-                rand = rnd.Next(0, 41);
+                rand = rnd.Next(0, 42);
                 Console.Write(pass[rand]);
                 Thread.Sleep(50);
                 if(i == 50)
@@ -51,6 +51,10 @@ namespace gitTest
                     Console.Write("\n");
                 }
             }
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("\nThere is a password. Copy it, and Enjoy!");
+            Thread.Sleep(400);
+
             Console.ResetColor();
         }
     }
