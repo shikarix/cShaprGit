@@ -17,14 +17,16 @@ namespace gitTest
                 {
                     
                     Console.Write(" " + field[i, j]);
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
                     Console.Write("|");
-                   
-
+                    Console.ResetColor();
                 }
                 Console.WriteLine();
                 if(i!=2)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
                     Console.WriteLine(" ————————");
+                    Console.ResetColor();
                 }
 
             }
