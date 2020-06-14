@@ -8,6 +8,10 @@ namespace gitTest
     {
         public void Start(string[,] field)
         {
+            foreach(string line in field)
+            {
+                Console.Write(line);
+            }
             
 
         }
