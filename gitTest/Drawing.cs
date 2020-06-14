@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace gitTest
 {
@@ -8,9 +6,8 @@ namespace gitTest
     {
         public void Start(string[,] field)
         {
-            foreach(string line in field)
-            {
-                Console.Write(line);
+            for(int i = field.Length; i > 0; i--) { 
+                Console.WriteLine(field[i,i]);
             }
             
 
