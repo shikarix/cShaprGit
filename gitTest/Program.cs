@@ -37,9 +37,9 @@ namespace gitTest
 
 
 
+new Drawing().Start(field);
 
-
-            new Drawing().Start(field);
+            
             Console.ReadKey();
         }
         static string[,] Number2(string[,] s_field,int XorO, int s_counter)
